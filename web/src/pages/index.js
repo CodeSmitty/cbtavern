@@ -5,7 +5,7 @@ const IndexPage = ({data}) => {
   console.log(data)
   return (
     <main >
-      hello worldss
+      hello worldsss
     </main>
   )
 }
