@@ -1,17 +1,15 @@
-import * as React from "react"
-import {graphql} from 'gatsby'
+import * as React from "react";
+import { graphql } from "gatsby";
 
-const IndexPage = ({data}) => {
-  console.log(data)
-  return (
-    <main >
-      hello worldsss
-    </main>
-  )
-}
+// component imports
+import Layout from "../components/layout/Layout.js";
 
-export default IndexPage
+const IndexPage = ({ data }) => {
+  console.log(data);
+  return <Layout />;
+};
 
+export default IndexPage;
 
 export const query = graphql`
   {
