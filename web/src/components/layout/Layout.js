@@ -1,4 +1,5 @@
 import React from "react";
+import "./layout.css";
 
 // global css import
 import "../../styles/global.css";
@@ -7,7 +8,12 @@ import "../../styles/global.css";
 import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
-  return <Navbar />;
+  return <div>
+    <div>
+      <Navbar />
+    </div>
+    {children}
+  </div>;
 };
 
 export default Layout;
