@@ -10,7 +10,8 @@ html{
 body {
   font-family:"Brawler";
   color: white;
-  background-color:#0E0D0D;
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,0.9337178719143908) 0%, rgba(0,0,0,1) 100%);
+   
 
-  
 }
