@@ -2,17 +2,21 @@
 *{
   box-sizing: border-box;
 }
+
+
 html{
   margin:0;
   padding:0;
-  height:100%;
+  min-height:100%;
+  background-image: linear-gradient(to right top, #000000, #100003, #1a0004, #220003, #280000);
+background-repeat: no-repeat;
+background-size:cover;
 }
 
 body {
+  width:100%;
+  min-height:100%;
   font-family:"Brawler";
   color: white;
-  /* background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,0.905706667432598) 0%, rgba(0,0,0,1) 100%); */
-background-image: linear-gradient(to right top, #000000, #100003, #1a0004, #220003, #280000);
-background-repeat: no-repeat;
+
 }
