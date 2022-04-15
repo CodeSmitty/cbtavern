@@ -1,14 +1,22 @@
-import images from "./headerImages"
-import createSchema from "part:@sanity/base/schema-creator";
-import schemaTypes from "all:part:@sanity/base/schema-type";
-
 export default {
   name: "gallery",
-  type: "object",
+  type: "document",
   title: "Gallery",
   fields: [
     {
-        type:schemaTypes.concat([images])
+      name: "images",
+      type: "array",
+      title: "Images",
+      of: [
+        {
+          name: "imageArr",
+          type: "imageArr",
+          title: "ImageArr",
+        },
+      ],
+      options: {
+        layout: "grid",
+      },
     },
     {
       name: "display",
