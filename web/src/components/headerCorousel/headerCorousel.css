@@ -12,6 +12,10 @@
   height:500px !important;
 }
 
+.carousel-indicators{
+  display:none !important;
+}
+
 @media (max-width: 688px) {
     .carousel-item>img {
         max-height: 146px;
