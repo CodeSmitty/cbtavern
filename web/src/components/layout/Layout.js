@@ -6,13 +6,13 @@ import "../../styles/global.css";
 
 
 // component imports
-import Navbar from "./Navbar";
+import NavBar from "./Navbar";
 
 const Layout = ({ children, data}) => {
   console.log(data)
   return <div>
     <div className="navbar-container">
-      <Navbar />
+      <NavBar />
     </div>
    
     {children}
