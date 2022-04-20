@@ -22,3 +22,47 @@ body {
   color: white;
   background:transparent !important;
 }
+
+
+.homepage-container{
+  width:100%;
+  margin:50px 0;
+}
+
+.checkbg-wrapper{
+  margin:auto;
+  width:150px;
+  height:100px;
+}
+
+.checkbg{
+  margin:0 auto;
+  width:100%;
+}
+
+.welcome-message{
+  width:60%;
+  margin:100px auto;
+  text-align:center;
+  padding:25px;
+}
+
+.welcome-h1, .welcome-h3{
+  margin:20px auto;
+}
+
+.welcome-message >p{
+  letter-spacing:2px
+}
+
+
+@media screen and (max-width:900px) {
+  .homepage-container{
+    margin:0;
+  }
+
+  .welcome-message{
+    width:80%;
+    margin:30px auto;
+  }
+}
