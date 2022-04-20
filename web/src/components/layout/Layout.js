@@ -11,9 +11,8 @@ import NavBar from "./Navbar";
 const Layout = ({ children, data}) => {
   console.log(data)
   return <div>
-    <div className="navbar-container">
       <NavBar />
-    </div>
+   
    
     {children}
   </div>;

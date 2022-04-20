@@ -1,6 +1,6 @@
 .corousel-container{
     width:100%;
-    margin:50px auto;
+    margin:auto;
 }
 
 .carousel {
@@ -9,7 +9,7 @@
 }
 
 .carousel-inner{
-  height:500px !important;
+  height:700px !important;
 }
 
 .carousel-indicators{

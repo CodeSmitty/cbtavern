@@ -6,23 +6,27 @@ import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 const NavBar = () => {
   return (
     <header className="header">
-      <Link to="/"><img src={logo} className="logo" /></Link>
-    
-        <Nav className="nav-container p-4">
-            <Nav.Item>
-              <Link to="/">Home</Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Link to="/menu">Menu</Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Link to="/menu">Catering</Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Link to="/">Contact</Link>
-            </Nav.Item>
-        
-        </Nav>
+      <Link className="logo-container" to="/">
+        <img src={logo} className="logo" />
+      </Link>
+
+      <Navbar expand="lg" className="nav-container">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className="mr-auto"/>
+        <Navbar.Collapse className='nav-collapse '>
+          <Nav.Item>
+            <Link to="/">Home</Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to="/menu">Menu</Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to="/menu">Catering</Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to="/">Contact</Link>
+          </Nav.Item>
+        </Navbar.Collapse>
+      </Navbar>
     </header>
   );
 };
