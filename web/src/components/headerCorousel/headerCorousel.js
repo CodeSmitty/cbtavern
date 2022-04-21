@@ -10,12 +10,14 @@ function HeaderCorousel({ data }) {
   const { images } = data?.allSanityGallery?.nodes[0];
 
   const imageData = images.map((image, i) => {
+    console.log(image?.imageTitle)
     return (
         <Carousel.Item>
           <GatsbyImage
           image={image?.asset?.gatsbyImageData}
           alt="this is an image"
         />
+        <h1 className="slider-img-title">{image?.imageTitle}</h1>
         </Carousel.Item>
         
         
@@ -23,25 +25,21 @@ function HeaderCorousel({ data }) {
     );
   });
 
-  console.log(imageData)
+  
 
   return (
     <div className="corousel-container">
       <Carousel className="p-0">
-        {images.map((image, i) =>  (
-        <Carousel.Item key={i}>
-          <GatsbyImage
-          className="d-block w-100 h-75"
-          image={image?.asset?.gatsbyImageData}
-          alt="this is an image"
-        />
-        </Carousel.Item>
-        
-        
-      
-    )
-  )}
-        
+        {images.map((image, i) => (
+          <Carousel.Item key={i}>
+            <GatsbyImage
+              className="d-block w-100 h-75"
+              image={image?.asset?.gatsbyImageData}
+              alt="this is an image"
+            />
+            <h1 className="slider-img-title">{image?.imageTitle}</h1>
+          </Carousel.Item>
+        ))}
       </Carousel>
     </div>
   );
