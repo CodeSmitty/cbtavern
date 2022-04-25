@@ -10,16 +10,16 @@ html{
   
   min-height:100%;
   /* background-image: linear-gradient(to right top, #000000, #100003, #1a0004, #220003, #280000); */
-  background-image: linear-gradient(to right top, #090809, #0e0d0d, #121111, #151414, #181717, #1c1717, #201717, #241717, #291313, #2e0f0f, #320909, #360202) !important;
+  /* background-image: linear-gradient(to right top, #090809, #0e0d0d, #121111, #151414, #181717, #1c1717, #201717, #241717, #291313, #2e0f0f, #320909, #360202) !important;
 background-repeat: no-repeat;
-background-size:cover;
+background-size:cover; */
 }
 
 body {
   width:100%;
   min-height:100%;
   font-family:"Brawler";
-  color: white;
+  color: black;
   background:transparent !important;
 }
 

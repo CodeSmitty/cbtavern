@@ -23,7 +23,7 @@ export const query = graphql`
         display
         images {
           asset {
-            gatsbyImageData
+            gatsbyImageData(layout: FULL_WIDTH, height:600)
           }
           imageTitle
         }

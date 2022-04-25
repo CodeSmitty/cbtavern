@@ -33,7 +33,7 @@ function HeaderCorousel({ data }) {
         {images.map((image, i) => (
           <Carousel.Item key={i}>
             <GatsbyImage
-              className="d-block w-100 h-75"
+              className="car-img"
               image={image?.asset?.gatsbyImageData}
               alt="this is an image"
             />
