@@ -32,9 +32,9 @@
 .nav-item > a {
     font-size:1.2em;
     padding:0 10px;
-    margin:auto 1px;
+    margin:auto ;
       text-decoration: none !important;
-      color:black;
+      color:white;
 }
 
 .nav-collapse{
@@ -43,6 +43,7 @@
 
 @media screen and (max-width:992px){
     .nav-collapse{
-        background-color:black;
+        width:50px;
+        background-color:rgba(0, 0, 0, 0.451);
     }
 }

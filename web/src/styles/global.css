@@ -55,6 +55,32 @@ body {
   letter-spacing:2px
 }
 
+.product-section{
+  display:flex;
+  width:90%;
+  justify-content:space-between;
+  flex-flow:row wrap;
+
+  margin:auto;
+}
+
+.product-section > div{
+  flex: 0 0 30%;
+  box-shadow:0px 1px 5px rgb(118, 3, 3);
+  height:300px;
+  padding:10px;
+  text-align:center;
+  margin:auto 0;
+  border-radius:15px;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:space-evenly;
+}
+
+.product-section > div > h2{
+  
+}
+
 
 @media screen and (max-width:900px) {
   .homepage-container{
@@ -64,5 +90,12 @@ body {
   .welcome-message{
     width:80%;
     margin:30px auto;
+  }
+
+  .product-section{
+    flex-flow:column nowrap;
+    justify-content:space-betweenl;
+    gap:20px;
+    width:80%;
   }
 }

@@ -21,6 +21,30 @@ function Homepage() {
           surround the bar, so you’ll never be too far from the action!
         </p>
       </div>
+      <section className="product-section">
+        <div>
+          <h2>Live Dj</h2>
+          <p>
+            Each Week, we feature a Live DJ, to help you unwind from the work
+            grind with your favorite music tracks.
+          </p>
+        </div>
+        <div>
+          <h2><a href="">Full Menu</a></h2>
+          <p>
+            Our menu choices are truly second to none. Stop in and experience
+            them for yourself!
+          </p>
+        </div>
+        <div>
+          <h2>Full Bar Experience</h2>
+          <p>
+            Our bar staff is ready to serve your favorite beer or cocktail to
+            help you relax, whether with friends or a quiet drink alone to
+            unwind.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }
