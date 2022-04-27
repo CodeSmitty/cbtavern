@@ -34,7 +34,7 @@
     padding:0 10px;
     margin:auto ;
       text-decoration: none !important;
-      color:white;
+      color:black;
 }
 
 .nav-collapse{
@@ -45,5 +45,9 @@
     .nav-collapse{
         width:50px;
         background-color:rgba(0, 0, 0, 0.451);
+    }
+
+    .nav-item > a {
+        color:white;
     }
 }
