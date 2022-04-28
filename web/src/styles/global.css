@@ -61,7 +61,11 @@ body {
   justify-content:space-evenly;
   flex-flow:row wrap;
 
-  margin:auto;
+  
+}
+
+section{
+  margin: 100px auto;
 }
 
 .product-section > div{
@@ -96,6 +100,44 @@ body {
 }
 
 
+.selection-section{
+  width:90%;
+  margin:100px auto;
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  padding:40px;
+  box-shadow:0px 1px 5px rgb(216, 216, 216);
+  border-radius:15px;
+}
+
+.selection-section > div>  h3{
+  font-size:1.5rem;
+}
+
+.selection-child{
+  flex: 0 0 40%;
+  
+}
+
+hr{
+  border:solid 1px rgb(255, 0, 0);
+}
+
+.selection-content-content{
+  padding:10px;
+  margin:auto;
+}
+
+.selection-img{
+  margin:auto;
+  display:flex;
+  justify-content:flex-end;
+}
+
+
+
+
 @media screen and (max-width:850px) {
   .homepage-container{
     margin:0;
@@ -118,4 +160,14 @@ body {
     flex:0 0 auto;
     margin:10px auto;
   }
+
+  .selection-section{
+    flex-flow:column wrap;
+    justify-content:center;
+    text-align: center;
+  }
+
+  .selection-img > img{
+margin:0 auto;
+}
 }

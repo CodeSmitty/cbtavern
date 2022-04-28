@@ -1,5 +1,6 @@
 import React from 'react'
 import checkbg from '../images/checkbg.png'
+import wingPlatter from "../images/wingPlatter.png"
 
 function Homepage() {
   return (
@@ -46,6 +47,19 @@ function Homepage() {
             unwind.
           </p>
         </div>
+      </section>
+
+      <section className="selection-section" >
+        <div className="selection-child selection-content" >
+          <h3 className="selection-content-title">Our Menu Is Full Of Great Selections</h3>
+          <hr />
+          <p className="selection-content-content">
+            When you’re ready to order your favorites, we’ve got you covered.
+            Delicious salads, tantalizing appetizers, mouth-watering main
+            dishes, no matter what you want, we’ve got the food you crave!
+          </p>
+        </div>
+        <div className="selection-child selection-img"><img src={wingPlatter} /></div>
       </section>
     </div>
   );
