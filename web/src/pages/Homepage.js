@@ -9,7 +9,7 @@ function Homepage() {
         <img className="checkbg" src={checkbg} />
       </div>
       <div className="welcome-message">
-        <h1 className="welcome-h1">Welcom to the Checkboard Tavern</h1>
+        <h1 className="welcome-h1">Welcome to the Checkboard Tavern</h1>
         <h3 className="welcome-h3">Great Food, Great Prices, Great Fun</h3>
         <p>
           {" "}
@@ -23,21 +23,23 @@ function Homepage() {
       </div>
       <section className="product-section">
         <div>
-          <h2>Live Dj</h2>
+          <h2 className="product-section-title">Live Dj</h2>
           <p>
             Each Week, we feature a Live DJ, to help you unwind from the work
             grind with your favorite music tracks.
           </p>
         </div>
         <div>
-          <h2><a href="">Full Menu</a></h2>
+          <h2 className="product-section-title">
+            <a href="/menu">Full Menu</a>
+          </h2>
           <p>
             Our menu choices are truly second to none. Stop in and experience
             them for yourself!
           </p>
         </div>
         <div>
-          <h2>Full Bar Experience</h2>
+          <h2 className="product-section-title">Full Bar Experience</h2>
           <p>
             Our bar staff is ready to serve your favorite beer or cocktail to
             help you relax, whether with friends or a quiet drink alone to
