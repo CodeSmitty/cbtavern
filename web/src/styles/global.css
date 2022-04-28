@@ -162,10 +162,16 @@ hr{
   }
 
   .selection-section{
-    flex-flow:column wrap;
+    flex-flow:row wrap;
     justify-content:center;
     text-align: center;
   }
+
+  .selection-child{
+  flex: 0 0 100%;
+  margin:20px 0;
+  
+}
 
   .selection-img > img{
 margin:0 auto;
