@@ -52,11 +52,18 @@
         min-height:200px;
     }
 
-    .carousel-inner{
-    }
+   .carousel-indicators{
+     display:none;
+   }
 
     .slider-img-title{
-     bottom:50%;
+      font-size:1em;
+    }
+
+   
+
+    .slider-img-title{
+     bottom:0;
     }
 
     .car-img{
