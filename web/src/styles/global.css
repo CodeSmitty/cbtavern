@@ -100,9 +100,9 @@ section{
 }
 
 
-.selection-section{
+.selection-section, .choose-section{
   width:90%;
-  margin:100px auto;
+  margin:160px auto;
   display:flex;
   flex-flow:row nowrap;
   justify-content: space-between;
@@ -111,11 +111,20 @@ section{
   border-radius:15px;
 }
 
+.choose-section{
+  justify-content:center;
+  flex-flow:row-reverse nowrap;
+}
+
 .selection-section > div>  h3{
   font-size:1.5rem;
 }
 
-.selection-child{
+.choose-section > div > h3{
+  font-size:1.5rem;
+}
+
+.selection-child, .choose-child{
   flex: 0 0 40%;
   
 }
@@ -124,16 +133,29 @@ hr{
   border:solid 1px rgb(255, 0, 0);
 }
 
-.selection-content-content{
+.selection-content-content, .choose-content-content{
   padding:10px;
   margin:auto;
 }
+
+
 
 .selection-img{
   margin:auto;
   display:flex;
   justify-content:flex-end;
 }
+
+.choose-img-container{
+  display:flex;
+  justify-content:center;
+}
+
+.choose-img{
+  width:75%;
+}
+
+
 
 
 
@@ -161,13 +183,18 @@ hr{
     margin:10px auto;
   }
 
-  .selection-section{
+  .selection-section, .choose-section{
     flex-flow:row wrap;
     justify-content:center;
     text-align: center;
   }
 
-  .selection-child{
+  .choose-content-content{
+    padding:0;
+    margin:0;
+  }
+
+  .selection-child, .choose-child{
   flex: 0 0 100%;
   margin:20px 0;
   

@@ -1,6 +1,7 @@
 import React from 'react'
 import checkbg from '../images/checkbg.png'
 import wingPlatter from "../images/wingPlatter.png"
+import barTap from '../images/barTap.png'
 
 function Homepage() {
   return (
@@ -49,9 +50,11 @@ function Homepage() {
         </div>
       </section>
 
-      <section className="selection-section" >
-        <div className="selection-child selection-content" >
-          <h3 className="selection-content-title">Our Menu Is Full Of Great Selections</h3>
+      <section className="selection-section">
+        <div className="selection-child selection-content">
+          <h3 className="selection-content-title">
+            Our Menu Is Full Of Great Selections
+          </h3>
           <hr />
           <p className="selection-content-content">
             When you’re ready to order your favorites, we’ve got you covered.
@@ -59,7 +62,27 @@ function Homepage() {
             dishes, no matter what you want, we’ve got the food you crave!
           </p>
         </div>
-        <div className="selection-child selection-img"><img src={wingPlatter} /></div>
+        <div className="selection-child selection-img">
+          <img src={wingPlatter} />
+        </div>
+      </section>
+
+      <section className="choose-section">
+        <div className="choose-child choose-content">
+          <h3 className="choose-title">Why Choose Us?</h3>
+          <hr />
+          <p className="choose-content-content">
+            For years, we have been a popular hangout spot in Lafayette. Some
+            may even call us the best kept secret in town. We have held to a
+            couple ideas since we opened; serve great food and drinks, and
+            provide entertainment for our customers that is second to none. We
+            know when you stop in, you'll agree that we cover both bases quite
+            well. Come see for yourself!
+          </p>
+        </div>
+        <div className="choose-child choose-img-container">
+          <img className="choose-img" src={barTap} />
+        </div>
       </section>
     </div>
   );
