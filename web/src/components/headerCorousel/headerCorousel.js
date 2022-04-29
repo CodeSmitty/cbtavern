@@ -37,7 +37,7 @@ function HeaderCorousel({ data }) {
               image={image?.asset?.gatsbyImageData}
               alt="this is an image"
             />
-            <h1 className="slider-img-title">{image?.imageTitle}</h1>
+            <h1 className={image?.imageTitle ? "slider-img-title" : ""}>{image?.imageTitle}</h1>
           </Carousel.Item>
         ))}
       </Carousel>

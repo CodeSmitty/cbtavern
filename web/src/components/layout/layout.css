@@ -10,6 +10,7 @@
     flex-flow:row nowrap;
     padding:0 20px;
    box-shadow: 3px 1px 7px 0px black;
+   background-color:rgb(17 12 18);
 }
 
 .logo-container, .nav-container{
@@ -31,12 +32,20 @@
     margin-left:250px;
 }
 
+.navbar-light .navbar-toggler{
+   border-color:white;
+}
+
+.navbar-toggler-icon{
+    filter:invert(1)
+}
+
 .nav-item > a {
     font-size:1.2em;
     padding:0 10px;
     margin:auto ;
       text-decoration: none !important;
-      color:black;
+      color:white;
 }
 
 .nav-collapse{
