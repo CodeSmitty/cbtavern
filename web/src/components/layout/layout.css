@@ -24,6 +24,8 @@
     margin:auto 10px;
 }
 
+/* Navbar */
+
 
 .navLink-container{
     max-width:100%;
@@ -52,6 +54,56 @@
     z-index:999;
 }
 
+
+/* Footer */
+
+.footer-wrapper{
+    position:relative;
+    bottom:0;
+    height:auto;
+     background-color:rgb(17 12 18);
+     display:flex;
+     justify-content:space-between;
+     flex-flow:row wrap;
+}
+
+.footer-logo-wrapper,.footer-schedule-wrapper,.footer-information-wrapper{
+flex:0 0 30%;
+height:80%;
+margin:auto;
+}
+
+
+
+
+.footer-schedule-wrapper{
+    padding:5px;
+text-align: center;
+color:white;
+}
+
+.footer-information-wrapper{
+    text-align:center;
+    padding:10px;
+    color:white;
+}
+
+.footer-icon{
+    width:25px;
+    
+}
+
+.footer-logo{
+    position:relative;
+    left:20%;
+    width:50%;
+}
+
+
+.facebook-icon{
+    filter:invert(.8)
+}
+
 @media screen and (max-width:992px){
     .nav-collapse{
         width:50px;
@@ -61,4 +113,11 @@
     .nav-item > a {
         color:white;
     }
+
+    
+    .footer-logo-wrapper,.footer-schedule-wrapper,.footer-information-wrapper{
+flex:0 0 90%;
+height:80%;
+margin:20px auto;
+}
 }

@@ -7,14 +7,14 @@ import "../../styles/global.css";
 
 // component imports
 import NavBar from "./Navbar";
+import Footer from "./Footer"
 
 const Layout = ({ children, data}) => {
   console.log(data)
   return <div>
       <NavBar />
-   
-   
     {children}
+    <Footer />
   </div>;
 };
 
